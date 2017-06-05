@@ -1,0 +1,133 @@
+
+html{
+    background: #000000;
+    padding:  0 66px;
+}
+body{
+    background: #DEDEDE;
+    overflow: auto;
+    margin: 0;
+}
+header{
+    width:100%;
+    height: auto;
+    background: #333333;
+    overflow: hidden;
+}
+header nav{
+    float: right;
+    height: 60px;
+}
+nav ul{
+    margin: 0;
+    height:100%;
+    padding: 0 20px;
+}
+nav ul li{
+    height: 100%;
+    float: left;
+    margin-left: 25px;
+}
+nav ul li a{
+    display: block;
+    height:100%;
+    color: #fff;
+    font-size: 12px;
+    line-height: 60px;
+    text-decoration: dashed;
+}
+.content{
+    padding: 15px;
+    overflow: hidden;
+}
+section{
+    background: #fff;
+    width: 60%;
+    float: left;
+    margin-bottom:15px;
+}
+
+.bigTitle{
+    font-size: 18px;
+    color: #666;
+}
+.smallTitle{
+    font-size: 14px;
+    color: #666;
+}
+aside{
+    background: #fff;
+    width: 29%;
+    float: right;
+}
+section,aside{
+    border-bottom: 2px solid #888;
+    border-right: 2px solid #888;
+    border-top: 1px solid #b6b6b6;
+    border-left: 1px solid #b6b6b6;
+    padding: 20px;
+}
+
+
+.imgs div{
+    float: left;
+    border: 1px solid #666;
+    margin: 10px ;
+}
+.imgs div p{
+    text-align: center;
+    margin: 0;
+}
+.imgs div img{
+    width:100px;
+    height: 100px;
+}
+footer{
+    text-align: center;
+    background: #000000 ;
+    color: #ffffff;
+}
+aside p{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+aside .btn{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+aside .btn button{
+    width: 225px;
+    height: 28px;
+    border: 0px;
+    border-radius: 5px;
+    background: #3B99FC;
+    color: #ffffff;
+}
+aside label{
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+
+.three table{
+    width:100%;
+    border: 1px;
+}
+.three table th{
+    background: #333333;
+    color: #fff;
+    text-align: left;
+}
+.noborder td{
+   border: none;
+    background: #CCCCCC;
+}
+
+.one ul li{
+    list-style: none;
+}
